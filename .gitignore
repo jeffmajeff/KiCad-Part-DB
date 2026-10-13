@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+
+# Local database files (use `parts export` dumps for version control)
+data/*.sqlite
+data/*.sqlite-*
